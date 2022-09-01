@@ -9,7 +9,7 @@ const App = () => {
 
   const [recipes,setRecipies] = useState([]);
   const [search, setSearch] = useState('')
-  const [query, setQuery] = useState('beef')
+  const [query, setQuery] = useState('')
 
   useEffect(() => {
     getRecipes();
